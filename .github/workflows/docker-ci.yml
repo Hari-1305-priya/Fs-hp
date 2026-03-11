@@ -16,4 +16,6 @@ jobs:
         run: docker build -t ml-devops-demo .
       - name: Run docker Container 
         run: docker run ml-devops-demo
+        name:Deploy Container
+        run: docker run ml-devops-demo
         
