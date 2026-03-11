@@ -6,4 +6,4 @@ model=LinearRegression()
 model.fit(X,y)
 prediction = model.predict([[6]])
 print("Prediction salary for 6 years experience:",prediction[0])
-
+print("kmec id deploying the project")
